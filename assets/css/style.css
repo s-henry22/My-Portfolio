@@ -48,3 +48,25 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
 }
+
+/* Style the Hero */
+.hero {
+    background-color: #F5FFFA;
+    padding: 100px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.hero img {
+    max-height: 200px;
+    margin:10px;
+    border: black 4px double;
+    border-radius: 50%;
+}
+
+.hero-text {
+    margin: 10px;
+    text-align: center;
+}
