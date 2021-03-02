@@ -80,8 +80,9 @@ header nav ul li a {
 .sidebar {
     width: 20%;
     height: 900px;
-    margin: 0px 20px 25px 20px;
+    margin: 0px 25px 25px 20px;
     border-right: black 3px solid;
+    float: left;
 }
 
 .sidebar a {
@@ -91,5 +92,12 @@ header nav ul li a {
     font-weight: bold;
     color: black;
     display: block;
-    padding: 5px 10px 100px 10px;
+    padding: 5px 10px 160px 10px;
+}
+
+/* About Me */
+
+.me {
+    width: 80%;
+    padding: 10px;
 }
